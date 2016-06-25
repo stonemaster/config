@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source ~/.bashrc
+
+export DESKTOP_SESSION=kde
+export XDG_CURRENT_DESKTOP=kde
