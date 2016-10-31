@@ -161,8 +161,11 @@ bar {
         }
 }
 
-
-
+exec compton -f -D 5
+exec start-pulseaudio-x11
 
 bindsym Control+Mod1+l exec "i3lock -i /home/stone/.kde/share/wallpapers/SeaMist.png -t"
 exec --no-startup-id feh --bg-scale /home/stone/.kde/share/wallpapers/SeaMist.png
+
+# Workspace assigment per window class
+# assign [class="google-chrome"] 1
