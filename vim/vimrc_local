@@ -1,3 +1,5 @@
+" save in ~/.vimrc_local
+
 autocmd BufNewFile,BufReadPost *.dt set filetype=pug
 
 autocmd FileType markdown setlocal cc=48
